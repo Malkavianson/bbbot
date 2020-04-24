@@ -59,6 +59,7 @@ if __name__ == '__main__':
                 matched_diff = diff
                 match = existent_image_path
                 match_pos = i
+                break
 
     # print(matched_diff, match, match_pos)
     print(match_pos)

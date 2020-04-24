@@ -109,11 +109,11 @@ const votar = async (page, iconText) => {
     const captchaElem = await page.$(xpaths.captcha);
 
     console.log(`Get captcha: ${iconText} | Position: ${position}`);
-    const x = config.captchaIndividualSize * position + config.captchaCenter;
+    const x = config.captchaIndividualSize * position + config.captchaXCenter;
     //await page.waitFor(config.waitClick);
-    await clickOnElement(page, captchaElem, x, config.captchaCenter);
+    await clickOnElement(page, captchaElem, x, config.captchaYCenter);
     //await page.waitFor(config.waitClick);
-  } catch (error) {
+    } catch (error) {
     goToVotePage(page);
     return;
   }

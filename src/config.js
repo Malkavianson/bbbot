@@ -26,7 +26,8 @@ const config = {
   participantPosition: getPosition(process.argv[2] || process.env.PARTICIPANTE),  // [1,2, 3] are the possible options.
   timeoutClick: 5 * 1000,  // in MS
   waitClick: 2 * 1000, // in milisseconds
-  captchaCenter: 28,
+  captchaXCenter: 28,
+  captchaYCenter: 0,
   captchaIndividualSize: 53,
 };
 

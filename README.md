@@ -2,8 +2,8 @@ BBBot + OpenCV
 
 ===============
 
-```
 Pré requisitos: 
+```
 
 Nodejs
 Python 3.7 > 3.8
@@ -11,6 +11,7 @@ Visual Studio > 2017 + Desenvolvimento para Desktop com C++
 
 ```
 ===============
+
 Você precisa exportar duas variáveis para poder logar no site da Globo e uma para o participante que vai ser votado:
 
 Linux / Mac

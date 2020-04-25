@@ -7,7 +7,7 @@ Pré requisitos:
 
 Nodejs
 Python 3.7 > 3.8
-Visual Studio > 2017 + Desenvolvimento para Desktop com C++
+OpenCV 3.4.2
 
 ```
 ===============
@@ -72,6 +72,15 @@ Esse bot é feito utilizando o SIFT do OpenCV. Algumas captchas não vão funcio
 2) O programa vai cortar o captcha em 5 pedaços e renomear cada pra: images/<simbolo>_numero.png
 3) É só puxar a versão correta pra images_individual como <simbolo>_numero.png que o programa vai identificar esse ícone
 4) Abra um pull request para atualizarmos aqui :)
+
+
+Perguntas Frequentes
+====================
+* OpenCV não instala * Tente reinstalar manualmente atravéz do link: https://sourceforge.net/projects/opencvlibrary/files/opencv-win/3.4.2/opencv-3.4.2-vc14_vc15.exe/download
+* pip desatualizado * Tente atualizar manualmente com o comando:*" python -m pip install --upgrade pip "*
+* Erra muitos captchas * Vá até a pasta src/images, selecione os captchas corretos, renomeie depois do underline e mova para a pasta src/images_individual
+
+
 
 TODO
 =====
